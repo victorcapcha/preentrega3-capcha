@@ -13,6 +13,9 @@ h1 {
 
 footer {
   background-color: #A5D7E8;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
