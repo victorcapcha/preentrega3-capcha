@@ -5,6 +5,12 @@
 header {
   background-color: #5F264A;
 }
+h1 {
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+}
+
 footer {
   background-color: #A5D7E8;
 }
