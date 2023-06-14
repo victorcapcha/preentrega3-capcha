@@ -3,7 +3,7 @@
 }
 
 main {
-  padding-bottom: 5%;
+  padding-bottom: 0%;
 }
 
 header {
@@ -21,7 +21,6 @@ section div a {
 
 footer {
   background-color: #A5D7E8;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
