@@ -6,6 +6,9 @@ section {
     color: $color-logo;
   }
   div {
+    .card-footer {
+      text-align: center;
+    }
     a {
       text-decoration: none;
     }

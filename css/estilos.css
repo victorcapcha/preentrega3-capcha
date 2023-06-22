@@ -7,20 +7,31 @@ main {
 }
 
 header {
-  background-color: #5F264A;
+  background-color: #A03C78;
 }
+header nav div ul li .nav-link {
+  color: #CDF3A2;
+}
+
 section h1 {
   text-align: center;
   margin: 10px;
   padding: 10px;
-  color: #03C988;
+  color: #191825;
+}
+section div .card-footer {
+  text-align: center;
 }
 section div a {
   text-decoration: none;
 }
 
+section div h2 {
+  color: #191825;
+}
+
 footer {
-  background-color: #A5D7E8;
+  background-color: #ED8E7C;
   width: 100%;
   margin-top: 10px;
 }
