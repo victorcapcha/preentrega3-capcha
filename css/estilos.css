@@ -47,23 +47,58 @@ section div form .form-group {
 
 footer div {
   background-color: #ED8E7C;
-  width: 100%;
-  margin-top: 10px;
 }
-footer div .twitter {
-  color: blue;
+footer div .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-footer div .facebook {
-  color: blue;
+footer div .icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: all 0.8s;
 }
-footer div .instagram {
-  color: orangered;
+footer div .icon:hover {
+  background-color: #e60073;
+  box-shadow: 0 0 20px #e60073;
 }
-footer div .youtube {
-  color: red;
+footer div .icon:hover:nth-child(2) {
+  background-color: #1877f2;
+  box-shadow: 0 0 20px #1877f2;
 }
-footer div a i {
-  width: 50px;
+footer div .icon:hover:nth-child(3) {
+  background-color: #25d366;
+  box-shadow: 0 0 20px #25d366;
+}
+footer div .icon:hover:nth-child(4) {
+  background-color: #1da1f2;
+  box-shadow: 0 0 20px #1da1f2;
+}
+footer div .icon:hover:nth-child(5) {
+  background-color: #f21d1d;
+  box-shadow: 0 0 20px #ee0808;
+}
+footer div .icon i {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.7rem;
+}
+footer div svg {
+  height: 100%;
+}
+footer div svg circle {
+  stroke-dasharray: 150;
+  transition: all 0.8s ease-in-out;
+}
+footer div .icon:hover circle {
+  stroke-dasharray: 220;
 }
 
 /*# sourceMappingURL=estilos.css.map */
