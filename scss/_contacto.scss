@@ -2,6 +2,13 @@ section {
   div {
     h2 {
       color: $color-logo;
+      text-align: center;
+      margin: 20px;
+    }
+    form {
+    .form-group{
+      margin: 25px;
+      }
     }
   }
 }

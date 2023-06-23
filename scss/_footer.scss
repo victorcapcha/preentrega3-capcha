@@ -1,5 +1,24 @@
 footer {
-  background-color: $color-footer;
-  width: 100%;
-  margin-top: 10px;
+  div {
+    background-color: $color-footer;
+    width: 100%;
+    margin-top: 10px;
+    .twitter{
+    color: blue;
+    }
+    .facebook{
+    color: blue;
+    }
+    .instagram{
+    color: orangered;
+    }
+    .youtube{
+    color: red;
+    }
+    a {
+      i {
+        width:50px;
+      }
+    }
+  }
 }

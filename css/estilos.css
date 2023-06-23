@@ -5,6 +5,12 @@
 main {
   padding-bottom: 0%;
 }
+main .card-title {
+  color: #191825;
+}
+main h5 {
+  text-align: center;
+}
 
 header {
   background-color: #A03C78;
@@ -21,19 +27,41 @@ section h1 {
 }
 section div .card-footer {
   text-align: center;
+  background: #A03C78;
 }
 section div a {
   text-decoration: none;
+  color: #CDF3A2;
 }
 
 section div h2 {
   color: #191825;
+  text-align: center;
+  margin: 20px;
+}
+section div form .form-group {
+  margin: 25px;
 }
 
-footer {
+footer div {
   background-color: #ED8E7C;
   width: 100%;
   margin-top: 10px;
+}
+footer div .twitter {
+  color: blue;
+}
+footer div .facebook {
+  color: blue;
+}
+footer div .instagram {
+  color: orangered;
+}
+footer div .youtube {
+  color: red;
+}
+footer div a i {
+  width: 50px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
