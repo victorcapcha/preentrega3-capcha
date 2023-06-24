@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
 * {
+  margin: 0%;
+  padding: 0%;
   box-sizing: border-box;
 }
 
 main {
+  margin: 10px;
   padding-bottom: 0%;
 }
 main .card-title {
@@ -12,9 +15,22 @@ main .card-title {
 main h5 {
   text-align: center;
 }
+main h4 {
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+}
+main h6 {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+}
 
 header {
   background-color: #A03C78;
+}
+header nav div .navbar-brand {
+  color: #CDF3A2;
 }
 header nav div ul li .nav-link {
   color: #CDF3A2;
@@ -36,6 +52,11 @@ section div a {
   color: #CDF3A2;
 }
 
+div .caracteristicas {
+  display: flex;
+  flex-direction: column;
+}
+
 section div h2 {
   color: #191825;
   text-align: center;
@@ -43,6 +64,10 @@ section div h2 {
 }
 section div form .form-group {
   margin: 25px;
+}
+section div .enviar {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 footer div {
@@ -99,6 +124,13 @@ footer div svg circle {
 }
 footer div .icon:hover circle {
   stroke-dasharray: 220;
+}
+footer div h5 {
+  text-align: center;
+  margin: 10px;
+}
+footer div p {
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

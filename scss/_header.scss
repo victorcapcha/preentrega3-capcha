@@ -2,6 +2,9 @@ header {
   background-color: $color-header;
   nav {
     div {
+      .navbar-brand{
+        color: $color-menu;
+      }
       ul {
         li {
           .nav-link{

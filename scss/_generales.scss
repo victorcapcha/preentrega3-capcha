@@ -1,12 +1,25 @@
 *{
+  margin: 0%;
+  padding: 0%;
   box-sizing: border-box;
 }
 main {
+  margin: 10px;
   padding-bottom: 0%;
   .card-title{
   color: #191825;
   }
   h5 {
     text-align: center;
+  }
+  h4 {
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+  }
+  h6 {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
   }
 }
