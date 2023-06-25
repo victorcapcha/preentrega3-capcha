@@ -11,29 +11,29 @@ footer {
       position: relative;
       width: 80px;
       height: 80px;
-      margin: 10px;
+      margin: 5px;
       border-radius: 50%;
       transition: all .8s;
     }
     .icon:hover {
-      background-color: #e60073;
-      box-shadow: 0 0 20px #e60073;
+      background-color: $instagram;
+      box-shadow: 0 0 20px $instagram;
     }
     .icon:hover:nth-child(2) {
-      background-color: #1877f2;
-      box-shadow: 0 0 20px #1877f2;
+      background-color: $facebook;
+      box-shadow: 0 0 20px $facebook;
     }
     .icon:hover:nth-child(3) {
-      background-color: #25d366;
-      box-shadow: 0 0 20px #25d366;
+      background-color: $wathsapp;
+      box-shadow: 0 0 20px $wathsapp;
     }
     .icon:hover:nth-child(4) {
-      background-color: #1da1f2;
-      box-shadow: 0 0 20px #1da1f2;
+      background-color: $twitter;
+      box-shadow: 0 0 20px $twitter;
     }
     .icon:hover:nth-child(5) {
-      background-color: #f21d1d;
-      box-shadow: 0 0 20px #ee0808;
+      background-color: youtube;
+      box-shadow: 0 0 20px youtube;
     }
     .icon i {
       color: #fff;
